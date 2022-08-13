@@ -10,7 +10,8 @@
 /datum/admins/proc/player_panel_new()//The new one
 	if(!usr.client.holder || !(check_rights(R_ADMIN|R_MOD, FALSE)))
 		return
-	var/dat = "<html>"
+	var/dat = {"<html>
+	<meta charset="UTF-8">"}
 
 	//javascript, the part that does most of the work~
 	dat += {"
