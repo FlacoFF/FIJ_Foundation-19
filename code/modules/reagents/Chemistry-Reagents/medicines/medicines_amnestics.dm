@@ -20,7 +20,7 @@
 		isamnesticized = TRUE
 		to_chat(M, "<span class='notice'>You feel your memory drifting away...</span>")
 		M.visible_message("<span class='warning'>[M] looks confused for a moment.</span>")
-		to_chat(M, "<font size='5' color='red'> Твои воспоминания уходят в небытие... Ты не сможешь вспомнить события, предшествовавшие амнестизации..</font>")
+		to_chat(M, "<font size='5' color='red'> Твои воспоминания уходят в небытие... Ты не можешь вспомнить события, предшествовавшие амнестизации.</font>")
 	else
 		if(prob(10))
 			M.drowsyness += 5
@@ -65,7 +65,7 @@
 		isamnesticized = TRUE
 		to_chat(M, "<span class='notice'>Memories are ripped out of your head!</span>")
 		//No visible message because they are sleeping.
-		to_chat(M, "<font size='5' color='red'> Твои воспоминания о прошедшей неделе уходят в небытие... Ты не можешь что-либо с прошедшей недели</font>") //TODO
+		to_chat(M, "<font size='5' color='red'> Твои воспоминания о прошедшей неделе уходят в небытие... Ты не можешь вспомнить что-либо с прошедшей недели.</font>") //TODO
 	else
 		M.add_chemical_effect(CE_SEDATE, 1) //sedative logic stolen from chloral hydrate.
 		if (M.chem_doses[type] <= metabolism * threshold)
@@ -132,7 +132,7 @@
 		isamnesticized = TRUE
 		to_chat(M, "<span class='notice'>Who... Am... I?</span>")
 		//No visible message because they are sleeping.
-		to_chat(M, "<font size='5' color='red'> Все твои воспоминания уходят в небытие... Ты потерял все дорогие тебе воспоминания, и твоя личность был стерта, чтобы вновь быть слепленной, как из пластелина.</font>")
+		to_chat(M, "<font size='5' color='red'> Все твои воспоминания уходят в небытие... Ты потерял все дорогие тебе воспоминания, а твоя личность был стерта, чтобы вновь быть слепленной, как из пластелина.</font>")
 	else
 		M.add_chemical_effect(CE_SEDATE, 1) //sedative logic stolen from chloral hydrate.
 		if (M.chem_doses[type] <= metabolism * threshold)
