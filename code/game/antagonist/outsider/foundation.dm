@@ -5,10 +5,10 @@ GLOBAL_DATUM_INIT(foundation_agents, /datum/antagonist/foundation, new)
 	role_text = "Foundation Agent"
 	antag_indicator = "hudfoundation"
 	role_text_plural = "Foundation Agents"
-	welcome_text = "<span class='info'>You are a field agent of the Cuchulain Foundation, \
-	a body that specializes in taking down psychic threats. You have a free pass to anywhere \
-	you like, a pistol loaded with anti-psi nullglass rounds, and a clear duty. Naturally, \
-	nobody takes your employers seriously - until a day like today.</span>"
+	welcome_text = "<span class='info'>Вы полевой агент Фонда Кучулейн, \
+	организации, которая специализируется на устранении психических угроз. У вас есть пропуск куда угодно \
+	пистолет, заряженный анти-пси-нулевыми стеклянными патронами, и свои обязанности. \
+	Естественно, никто не воспринимал ваших работодателей всерьез - до сегодняшнего дня.</span>"
 	antag_text = "You are an <b>anti</b> antagonist! Within the rules, \
 		try to save the installation and its inhabitants from the ongoing crisis. \
 		Try to make sure other players have <i>fun</i>! If you are confused or at a loss, always adminhelp, \

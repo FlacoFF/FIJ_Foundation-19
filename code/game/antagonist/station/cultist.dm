@@ -27,7 +27,7 @@ GLOBAL_DATUM_INIT(cult, /datum/antagonist/cultist, new)
 	blacklisted_jobs = list(/datum/job/ai, /datum/job/classd, /datum/job/captain, /datum/job/hos, /datum/job/rd, /datum/job/o5rep, /datum/job/commsofficer, /datum/job/enlistedofficerez, /datum/job/enlistedofficerlcz, /datum/job/enlistedofficerhcz, /datum/job/ncoofficerez, /datum/job/ncoofficerlcz, /datum/job/ncoofficerhcz, /datum/job/ltofficerez, /datum/job/ltofficerlcz, /datum/job/ltofficerhcz, /datum/job/goirep)
 	feedback_tag = "cult_objective"
 	antag_indicator = "hudcultist"
-	welcome_text = "You have a tome in your possession; one that will help you start the cult. Use it well and remember - there are others."
+	welcome_text = "У вас в руках фолиант, который поможет вам основать культ. Используйте его правильно и помните - здесь есть и другие культисты."
 	victory_text = "The cult wins! It has succeeded in serving its dark masters!"
 	loss_text = "The staff managed to stop the cult!"
 	victory_feedback_tag = "win - cult win"
@@ -49,7 +49,7 @@ GLOBAL_DATUM_INIT(cult, /datum/antagonist/cultist, new)
 	var/cult_rating = 0
 	var/list/cult_rating_bounds = list(CULT_RUNES_1, CULT_RUNES_2, CULT_RUNES_3, CULT_GHOSTS_1, CULT_GHOSTS_2, CULT_GHOSTS_3)
 	var/max_cult_rating = 0
-	var/conversion_blurb = "You catch a glimpse of the Realm of Nar-Sie, the Geometer of Blood. You now see how flimsy the world is, you see that it should be open to the knowledge of That Which Waits. Assist your new compatriots in their dark dealings. Their goals are yours, and yours are theirs. You serve the Dark One above all else. Bring It back."
+	var/conversion_blurb = "Вы мельком увидели царство Нар-Си, геометра крови. Теперь вы видите, насколько хрупок этот мир, видите, что он должен быть открыт для познания Того-Кто-Ждет. Помоги своим новым последователям в их темных делах. Их цели - твои, а твои - их. Вы служите Темному. Верните его."
 
 	faction = "cult"
 

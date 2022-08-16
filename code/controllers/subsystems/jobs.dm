@@ -536,15 +536,15 @@ SUBSYSTEM_DEF(jobs)
 			W.buckled_mob = H
 			W.add_fingerprint(H)
 
-	to_chat(H, "<font size = 3><B>You are [job.total_positions == 1 ? "the" : "a"] [alt_title ? alt_title : rank].</B></font>")
+	to_chat(H, "<font size = 3><B>Вы [job.total_positions == 1 ? "являетесь" : "теперь"] [alt_title ? alt_title : rank].</B></font>")
 
 	if(job.supervisors)
-		to_chat(H, "<b>As the [alt_title ? alt_title : rank] you answer directly to [job.supervisors]. Special circumstances may change this.</b>")
+		to_chat(H, "<b>Как [alt_title ? alt_title : rank], вы должны подчиняться [job.supervisors]. Особые обстоятельства могут изменить это.</b>")
 
-	to_chat(H, "<b>To speak on your department's radio channel use :h. For the use of other channels, examine your headset.</b>")
+	to_chat(H, "<b>Чтобы говорить по радиоканалу вашего отдела используйте :h. Для использования других каналов настройте свою гарнитру.</b>")
 
 	if(job.req_admin_notify)
-		to_chat(H, "<b>You are playing a job that is important for Game Progression. If you have to disconnect, please notify the admins via adminhelp.</b>")
+		to_chat(H, "<b>Вы играете за профессию, которая важна для игрового процесса. Если вам необходимо отключиться, пожалуйста, сообщите об этом администраторам через adminhelp.</b>")
 
 	//Gives glasses to the vision impaired
 	if(H.disabilities & NEARSIGHTED)

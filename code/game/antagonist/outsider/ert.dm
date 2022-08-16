@@ -31,7 +31,7 @@ GLOBAL_DATUM_INIT(ert, /datum/antagonist/ert, new)
 
 /datum/antagonist/ert/New()
 	..()
-	leader_welcome_text = "As leader of Mobile Task Force Epsilon-11, you answer only to the O5 Council, and have authority to override the Site staff where it is necessary to achieve your mission goals. It is recommended that you attempt to cooperate with the site staff where possible, however."
+	leader_welcome_text = "Как руководитель Мобильной оперативной группы Эпсилон-11, вы подчиняетесь только Совету О5 и имеете право отменять действия персонала Объекта, когда это необходимо для достижения целей вашей миссии. Однако рекомендуется сотрудничать с персоналом комплекса, когда это возможно."
 //	ert = src
 
 /datum/antagonist/ert/greet(var/datum/mind/player)

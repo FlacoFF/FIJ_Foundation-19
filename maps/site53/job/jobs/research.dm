@@ -6,7 +6,7 @@
 	department_flag = SCI
 	total_positions = 10
 	spawn_positions = 10
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Junior Xenobiologist", "Junior Xenoarcheologist", "Assistant Researcher", "Research Assistant", "Research Intern", "Junior Researcher")
 	ideal_character_age = 22
@@ -38,7 +38,7 @@
 	department_flag = SCI
 	total_positions = 3
 	spawn_positions = 3
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Junior Exoskeleton Technician", "Junior Hardsuit Technician")
 	ideal_character_age = 22
@@ -74,7 +74,7 @@
 	department_flag = SCI
 	total_positions = 8
 	spawn_positions = 8
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Xenobiologist", "Xenoarcheologist")
 	minimal_player_age = 5
@@ -108,7 +108,7 @@
 	department_flag = SCI
 	total_positions = 3
 	spawn_positions = 3
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Exoskeleton Technician", "Hardsuit Technician")
 	ideal_character_age = 22
@@ -146,7 +146,7 @@
 	department_flag = SCI
 	total_positions = 4
 	spawn_positions = 4
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Senior Xenobiologist", "Senior Xenoarcheologist")
 	minimal_player_age = 10
@@ -184,7 +184,7 @@
 	department_flag = SCI
 	total_positions = 3
 	spawn_positions = 3
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Senior Exoskeleton Technician", "Senior Hardsuit Technician")
 	ideal_character_age = 22

@@ -66,7 +66,7 @@
 	selection_color = "#633d63"
 	total_positions = 6
 	spawn_positions = 6
-	supervisors = "the Research Director and anyone in a higher position than you"
+	supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Xenobiologist", "Xenoarcheologist")
 	minimal_player_age = 5
@@ -89,7 +89,7 @@
 	selection_color = "#633d63"
 	total_positions = 6
 	spawn_positions = 6
-	supervisors = "the Research Director and anyone in a higher position than you"
+	supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Junior Xenobiologist", "Junior Xenoarcheologist")
 	minimal_player_age = 0
@@ -113,7 +113,7 @@
 	selection_color = "#633d63"
 	total_positions = 3
 	spawn_positions = 3
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Senior Exoskeleton Technician", "Senior Hardsuit Technician")
 	ideal_character_age = 22
@@ -136,7 +136,7 @@
 	selection_color = "#633d63"
 	total_positions = 3
 	spawn_positions = 3
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Exoskeleton Technician", "Hardsuit Technician")
 	minimal_player_age = 5
@@ -159,7 +159,7 @@
 	selection_color = "#633d63"
 	total_positions = 3
 	spawn_positions = 3
-	//supervisors = "the Research Director and anyone in a higher position than you"
+	//supervisors = "the Research Director или кому-либо выше вас по должности"
 	economic_power = 4
 	alt_titles = list("Junior Exoskeleton Technician", "Junior Hardsuit Technician")
 	ideal_character_age = 22
