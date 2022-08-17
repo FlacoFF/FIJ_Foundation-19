@@ -97,7 +97,14 @@ var/list/department_radio_keys = list(
 	  ":å" = "Mercenary",	".å" = "Mercenary",
 	  ":é" = "Supply",		".é" = "Supply",
 	  ":п" = "GOC",			".П" = "GOC", //GOC
+	  ":g" = "GOC",			".g" = "GOC", //GOC
 
+	  ":x" = "LCZ-Security",		".x" = "LCZ-Security",
+	  ":k" = "HCZ-Security",		".k" = "HCZ-Security",
+	  ":z" = "ECZ-Security",		".z" = "ECZ-Security",
+	  ":X" = "LCZ-Security",		".X" = "LCZ-Security",
+	  ":K" = "HCZ-Security",		".K" = "HCZ-Security",
+	  ":Z" = "ECZ-Security",		".Z" = "ECZ-Security",
 	  ":ч" = "LCZ-Security",		".ч" = "LCZ-Security",
 	  ":л" = "HCZ-Security",		".л" = "HCZ-Security",
 	  ":я" = "ECZ-Security",		".я" = "ECZ-Security",
