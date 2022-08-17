@@ -81,7 +81,7 @@ var/list/department_radio_keys = list(
 	  ":Щ" = "Response Team", ".Щ" = "Response Team",
 	  ":О" = "Hailing", ".О" = "Hailing",
 
-/*
+
 	  //kinda localization -- rastaf0
 	  //same keys as above, but on russian keyboard layout. This file uses cp1251 as encoding.
 	  ":ê" = "right ear",	".ê" = "right ear",
@@ -96,15 +96,14 @@ var/list/department_radio_keys = list(
 	  ":ö" = "whisper",		".ö" = "whisper",
 	  ":å" = "Mercenary",	".å" = "Mercenary",
 	  ":é" = "Supply",		".é" = "Supply",
-	  ":g" = "GOC",			".g" = "GOC", //GOC
+	  ":п" = "GOC",			".П" = "GOC", //GOC
 
-	  ":x" = "LCZ-Security",		".x" = "LCZ-Security",
-	  ":k" = "HCZ-Security",		".k" = "HCZ-Security",
-	  ":z" = "ECZ-Security",		".z" = "ECZ-Security",
-	  ":X" = "LCZ-Security",		".X" = "LCZ-Security",
-	  ":K" = "HCZ-Security",		".K" = "HCZ-Security",
-	  ":Z" = "ECZ-Security",		".Z" = "ECZ-Security",
-*/
+	  ":ч" = "LCZ-Security",		".ч" = "LCZ-Security",
+	  ":л" = "HCZ-Security",		".л" = "HCZ-Security",
+	  ":я" = "ECZ-Security",		".я" = "ECZ-Security",
+	  ":Ч" = "LCZ-Security",		".Ч" = "LCZ-Security",
+	  ":Л" = "HCZ-Security",		".Л" = "HCZ-Security",
+	  ":Я" = "ECZ-Security",		".Я" = "ECZ-Security",
 )
 
 
