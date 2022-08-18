@@ -124,7 +124,7 @@
 	var/static/datum/announcement/priority/security/security_announcement_black = new(do_log = 0, do_newscast = 1, new_sound = sound('sound/AI/announcer/codeblack.ogg'))
 
 /decl/security_level/default/site53/code_black/switching_up_to()
-	security_announcement_black.Announce("Комплекс в настоящий момент подвергся множественному нарушению условий содержания объектов класса Евклид и Кетер. Инициирована полная блокировка Зоны.", "Внимание! Были запущены процедуры Красного кода!")
+	security_announcement_black.Announce("Комплекс в настоящий момент подвергся множественному нарушению условий содержания объектов класса Евклид и Кетер. Инициирована полная блокировка Зоны.", "Внимание! Были запущены процедуры Чёрного кода!")
 	notify_station()
 
 /decl/security_level/default/site53/code_black/switching_down_to()
