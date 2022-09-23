@@ -118,11 +118,11 @@ var/can_call_ert
 
 	// there's only a certain chance a team will be sent
 	if(!prob(send_team_chance))
-		command_announcement.Announce("It would appear that an emergency response team was requested for [station_name()]. Unfortunately, we were unable to send one at this time.", "[GLOB.using_map.boss_name]")
+		command_announcement.Announce("Судя по всему, для Фонда 19 была запрошена мобильная оперативная группа. К сожалению, мы не сможем отправить её в это время.", "[GLOB.using_map.boss_name]")
 		can_call_ert = 0 // Only one call per round, ladies.
 		return
 
-	command_announcement.Announce("It would appear that an emergency response team was requested for [station_name()]. We will prepare and send one as soon as possible.", "[GLOB.using_map.boss_name]")
+	command_announcement.Announce("Судя по всему, для Фонда 19 была запрошена мобильная оперативная группа. Мы подготовим и отправим её как можно скорее.", "[GLOB.using_map.boss_name]")
 
 	GLOB.ert.reason = reason //Set it even if it's blank to clear a reason from a previous ERT
 

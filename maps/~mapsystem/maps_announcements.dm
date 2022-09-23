@@ -7,16 +7,16 @@
 	var/electrical_storm_moderate_sound
 	var/electrical_storm_major_sound
 
-	var/grid_check_message = "Abnormal activity detected in the %STATION_NAME%'s power system. As a precaution, the %STATION_NAME%'s power must be shut down for an indefinite duration."
+	var/grid_check_message = "Обнаружена аномальная активность в электросети Фонда. В качестве меры предосторожности, электричество на объекте будет отключено на неопределенный срок."
 	var/grid_check_sound
 
-	var/grid_restored_message = "Station power to the %STATION_NAME% will be restored at this time. We apologize for the inconvenience."
+	var/grid_restored_message = "Электропитание Фонда восстановлено. Приносим свои извинения за доставленные неудобства."
 	var/grid_restored_sound
 
-	var/meteor_detected_message = "Meteors have been detected on a collision course with the %STATION_NAME%."
+	var/meteor_detected_message = "Метеоры были обнаружены на курсе столкновения с Фондом."
 	var/meteor_detected_sound
 
-	var/radiation_detected_message = "High levels of radiation has been detected in proximity of the %STATION_NAME%. Please report to the medical bay if any strange symptoms occur."
+	var/radiation_detected_message = "Вблизи Фонда обнаружен высокий уровень радиации. Пожалуйста, сообщите в медицинский отсек, если вы почувствуете себя плохо."
 	var/radiation_detected_sound
 
 	var/space_time_anomaly_sound
