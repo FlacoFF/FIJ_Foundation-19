@@ -7,7 +7,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 
 /mob/living/scp_173
 	name = "SCP-173"
-	desc = "A statue, constructed from concrete and rebar with traces of Krylon brand spray paint."
+	desc = "Статуя, построенная из бетона и арматуры со следами аэрозольной краски марки Krylon."
 	icon = 'icons/SCP/scp-173.dmi'
 	icon_state = "173"
 	SCP = /datum/scp/scp_173
@@ -86,7 +86,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 		return
 	if(ishuman(A))
 		if(snap_cooldown > world.time)
-			to_chat(src, "<span class='warning'>You can't attack yet.</span>")
+			to_chat(src, "<span class='warning'>Вы пока не можете атаковать.</span>")
 			return
 		var/mob/living/carbon/human/H = A
 		if(H.SCP)
@@ -96,7 +96,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 			to_chat(src, "<span class='warning'><I>[H] is already dead!</I></span>")
 			return
 		snap_cooldown = world.time + snap_cooldown_time
-		visible_message("<span class='danger'>[src] snaps [H]'s neck!</span>")
+		visible_message("<span class='danger'>[src] ломает шею [H]!</span>")
 		playsound(loc, pick('sound/scp/spook/NeckSnap1.ogg', 'sound/scp/spook/NeckSnap3.ogg'), 50, 1)
 		H.death()
 		H.scp173_killed = TRUE
@@ -141,7 +141,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 
 /mob/living/scp_173/ClimbCheck(atom/A)
 	if(IsBeingWatched())
-		to_chat(src, "<span class='danger'>You can't climb while being watched.</span>")
+		to_chat(src, "<span class='danger'>Вы не можете перелазить, когда за вами наблюдают.</span>")
 		return FALSE
 	return TRUE
 
@@ -272,13 +272,13 @@ GLOBAL_LIST_EMPTY(scp173s)
 	if(feces_amount >= 60) // Breach, gonna take ~60 minutes
 		if(breach_cooldown > world.time)
 			return
-		breach_cooldown = world.time + 25 MINUTES
-		warning_cooldown = world.time + 5 MINUTES // Just in case 173 doesn't immediately leave the area
-		command_announcement.Announce("ALERT! SCP-173 containment zone security measures have shut down due to severe acidic degradation.")
+		breach_cooldown = world.time + 10 MINUTES
+		warning_cooldown = world.time + 10 MINUTES // Just in case 173 doesn't immediately leave the area
+		command_announcement.Announce("Тревога! Условия содержания SCP-173 нарушены в результате коррозионного разрушения сдерживающих структур.")
 		BreachEffect()
 	else if((feces_amount >= 40) && world.time > warning_cooldown) // Warning, after ~20 minutes
-		warning_cooldown = world.time + 2 MINUTES
-		command_announcement.Announce("ATTENTION! SCP-173 containment zone is suffering from mild acidic degradation. Janitorial services involvement is required.")
+		warning_cooldown = world.time + 5 MINUTES
+		command_announcement.Announce("Внимание! Камера содержания SCP-173 подвергается коррозионному разрушению. Требуется её тщательная очистка.")
 
 /mob/living/scp_173/proc/CheckFeces(containment_zone = TRUE) // Proc that returns amount of 173 feces in the area
 	var/area/A = get_area(src)
@@ -312,12 +312,12 @@ GLOBAL_LIST_EMPTY(scp173s)
 
 /obj/structure/scp173_cage/MouseDrop_T(atom/movable/dropping, mob/user)
 	if(isscp173(dropping))
-		visible_message(SPAN_WARNING("[user] starts to put SCP-173 into the cage."))
+		visible_message(SPAN_WARNING("[user] начинает помещать SCP-173 в клетку."))
 		var/oloc = loc
 		if(do_after(user, 10 SECONDS, dropping) && loc == oloc)
 			dropping.forceMove(src)
 			underlays += image(dropping)
-			visible_message(SPAN_NOTICE("[user] puts SCP-173 in the cage."))
+			visible_message(SPAN_NOTICE("[user] поместил SCP-173 в клетку."))
 			name = "SCP-173 Cage"
 			playsound(loc, 'sound/machines/bolts_down.ogg', 50, 1)
 			return TRUE
@@ -339,7 +339,7 @@ GLOBAL_LIST_EMPTY(scp173s)
 		return
 	resist_cooldown = world.time + 10 SECONDS
 	if(do_after(user, 20 SECONDS, src))
-		visible_message("<span class = 'danger'>[user] opens the cage from the inside!</span>")
+		visible_message("<span class = 'danger'>[user] открывает клетку изнутри!</span>")
 		ReleaseContents()
 
 /obj/structure/scp173_cage/proc/ReleaseContents()
