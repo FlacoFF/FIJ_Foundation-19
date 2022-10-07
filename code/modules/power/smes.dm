@@ -97,28 +97,30 @@
 	return 0
 
 /obj/machinery/power/smes/on_update_icon()
-	cut_overlays()
+	overlays.Cut()
 	if(stat & BROKEN)	return
 
-	add_overlay(image(overlay_icon, "smes-op[outputting]"))
+	overlays += image(overlay_icon, "smes-op[outputting]")
 
 	if(inputting == 2)
-		add_overlay(image(overlay_icon, "smes-oc2"))
+		overlays += image(overlay_icon, "smes-oc2")
 	else if (inputting == 1)
-		add_overlay(image(overlay_icon, "smes-oc1"))
+		overlays += image(overlay_icon, "smes-oc1")
 	else if (input_attempt)
-		add_overlay(image(overlay_icon, "smes-oc0"))
+		overlays += image(overlay_icon, "smes-oc0")
 
 	var/clevel = chargedisplay()
 	if(clevel)
-		add_overlay(image(overlay_icon, "smes-og[clevel]"))
+		overlays += image(overlay_icon, "smes-og[clevel]")
 
 	if(outputting == 2)
-		add_overlay(image(overlay_icon, "smes-op2"))
+		overlays += image(overlay_icon, "smes-op2")
 	else if (outputting == 1)
-		add_overlay(image(overlay_icon, "smes-op1"))
+		overlays += image(overlay_icon, "smes-op1")
 	else
-		add_overlay(image(overlay_icon, "smes-op0"))
+		overlays += image(overlay_icon, "smes-op0")
+	if(panel_open)
+		overlays += image(overlay_icon, "smes-panel")
 
 /obj/machinery/power/smes/proc/chargedisplay()
 	return round(5.5*charge/(capacity ? capacity : 5e6))
