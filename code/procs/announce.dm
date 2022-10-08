@@ -26,7 +26,7 @@
 
 /datum/announcement/priority/command/New(var/do_log = 1, var/new_sound = 'sound/misc/notice2.ogg', var/do_newscast = 0)
 	..(do_log, new_sound, do_newscast)
-	title = "Оповещение Совета О5"
+	title = "Оповещение [GLOB.using_map.boss_name]"
 	announcement_type = "[GLOB.using_map.boss_name] Update"
 
 /datum/announcement/proc/Announce(var/message as text, var/new_title = "", var/new_sound = null, var/do_newscast = newscast, var/msg_sanitized = 0, var/zlevels = GLOB.using_map.contact_levels)
