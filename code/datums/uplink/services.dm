@@ -43,7 +43,7 @@
 	item_cost = round(DEFAULT_TELECRYSTAL_AMOUNT / 2)
 
 	spawn(2)
-		name = "Оповещение Совета О5"
+		name = "Оповещение [GLOB.using_map.boss_name]"
 		desc = "Causes a falsified [GLOB.using_map.boss_name] Update."
 
 /***************
