@@ -70,7 +70,7 @@
 	. += "<br>"
 
 /datum/announcement/priority/command/FormMessage(message as text, message_title as text)
-	. = "<h1 class='alert'>Оповещение Совета О5</h1>"
+	. = "<h1 class='alert'>Оповещение [GLOB.using_map.boss_name]</h1>"
 	if (message_title)
 		. += "<br><h2 class='alert'>[message_title]</h2>"
 
