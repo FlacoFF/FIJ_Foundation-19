@@ -134,6 +134,7 @@
 // Movement delay
 /datum/movement_handler/mob/delay
 	var/next_move
+	var/delay = 1
 
 /datum/movement_handler/mob/delay/DoMove(var/direction, var/mover, var/is_external)
 	if(!is_external)
@@ -226,6 +227,7 @@
 
 // Finally.. the last of the mob movement junk
 /datum/movement_handler/mob/movement/DoMove(var/direction, var/mob/mover)
+	set waitfor = FALSE
 	. = MOVEMENT_HANDLED
 
 	if(mob.moving)
