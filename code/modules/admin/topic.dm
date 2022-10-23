@@ -1,16 +1,16 @@
-#define TICKET_AUTORESPONSE_IC_ISSUE "<b>This issue has been deemed an IC (In-Character) issue, and will not be handled by staff. In case it's relevant, you may wish to ask your <a href='https://scp13.miraheze.org/wiki/Rank'>Chain Of Command</a> about your issue if you believe <a href='https://scp13.miraheze.org/wiki/Foundation_Rules'>Foundation Law</a> has been broken.</b>"
-#define TICKET_AUTORESPONSE_BEING_HANDLED "<b>The issue is already being dealt with.</b>"
-#define TICKET_AUTORESPONSE_FIXED "<b>The issue is already fixed.</b>"
-#define TICKET_AUTORESPONSE_THANKS "<b>Have a SCP day!</b>"
-#define TICKET_AUTORESPONSE_REQUESTING_TO_BE_SCP "<b>Only under certain circumstances will an admin put you into special SCPs. Examples of these circumstances are: Imminent Test, gross negligence in containment, or an ongoing event. Do not repeatedly ask to become an SCP, as this might get you a mute.</b>"
-#define TICKET_AUTORESPONSE_BECOMING_AN_SCP "<b>In order to become a standard SCP, go to the Ghost verbs tab and click on 'Become Euclid/Keter SCP' or 'Become Safe SCP'. If an SCP is not occupied nor listed, it is most likely a special SCP that cannot be automatically joined as.</b>"
-#define TICKET_AUTORESPONSE_GITHUB_ISSUE "<b>Thanks for reporting this issue! Though, for maximum effectivity, please create an issue report on our <a href='https://github.com/Foundation-19/Foundation-19/issues'>GitHub</a>.</b>"
-#define TICKET_AUTORESPONSE_RUST_ENGINE "<b>The RUST Engine can be set up by finding the placed manual in the chamber area's, or alternatively you can visit <a href='https://bay.ss13.me/Guides/RUST'>the wiki guide on this engine</a>.</b>"
-#define TICKET_AUTORESPONSE_D_CLASS_RIOT "<b>D-Class may only riot with permission from a member of staff, and needs a good reason. If you wish to start a riot, you are to adminhelp again, outlining your reason. A member of staff will take your request under advisement.</b>"
-#define TICKET_AUTORESPONSE_D_CLASS_CELLS "<b>You can only get out if the on-duty guards feel like releasing you. It's best to wait and watch a YouTube video until such time.</b>"
-#define TICKET_AUTORESPONSE_DIRECTIONS_OR_LOST "<b>If you are lost, it is best to keep an eye on directional signs, ask a fellow player or find Holomaps, if they have been added to the current map.</b>"
-#define TICKET_AUTORESPONSE_CHARACTER_SETUP "<b>In order to join the game, you are required to select a branch and rank, found in the top area of the character set up. Once you have done this, you can join the jobs that are allowed for that rank. It is best to experiment for a moment to see which rank suits you best, since some jobs allow multiple.</b>"
-#define TICKET_AUTORESPONSE_WEBSITE_AND_DISCORD "<b>Hello, and welcome! Our website is located at: <a href='https://foundation-19.github.io/live/#'>https://foundation-19.github.io/live/</a> , our wiki is located at: <a href='https://scp13.miraheze.org/wiki'>https://scp13.miraheze.org/wiki</a>, our Discord is located at: <a href='https://discord.gg/xPxjQpp3Ud'>https://discord.gg/xPxjQpp3Ud</a> and our Patreon is located at: <a href='https://www.patreon.com/GSDR'>https://www.patreon.com/GSDR</a>. Hope to see you soon!</b>"
+#define TICKET_AUTORESPONSE_IC_ISSUE "<b>Этот вопрос был признан IC (In-Character) вопросом и не будет рассматриваться администрацией.</b>"
+#define TICKET_AUTORESPONSE_BEING_HANDLED "<b>Этот вопрос уже решается.</b>"
+#define TICKET_AUTORESPONSE_FIXED "<b>Проблема уже решена.</b>"
+#define TICKET_AUTORESPONSE_THANKS "<b>Удачного дня, спасибо</b>"
+#define TICKET_AUTORESPONSE_REQUESTING_TO_BE_SCP "<b>Только при определенных обстоятельствах администратор может поместить вас в специальные SCP. Примерами таких обстоятельств являются: Неизбежное испытание, грубая небрежность в сдерживании или проводимое событие. Не просите повторно стать SCP, так как это может привести к наказанию.</b>"
+#define TICKET_AUTORESPONSE_BECOMING_AN_SCP "<b>Чтобы стать стандартным SCP, перейдите на вкладку Ghost и нажмите на 'Become Euclid/Keter SCP' или 'Become Safe SCP'. Если SCP не занят и не указан в списке, то, скорее всего, это специальный SCP, к которому нельзя присоединиться автоматически.</b>"
+#define TICKET_AUTORESPONSE_GITHUB_ISSUE "<b>Спасибо, что сообщили об этой проблеме! Однако, для достижения максимального эффекта, пожалуйста, создайте отчет о проблеме в нашем <a href='https://discord.gg/cZz6mNt'>Дискорд-сервере.</a>.</b>"
+#define TICKET_AUTORESPONSE_RUST_ENGINE "<b>RUST Engine можно настроить, найдя размещенное руководство в комнате двигателя, или же вы можете посетить руководство на нашей <a href='https://fijss13.miraheze.org/'>вики.</a>.</b>"
+#define TICKET_AUTORESPONSE_D_CLASS_RIOT "<b>D-класс может бунтовать только с разрешения администрации и при наличии веской причины. Если вы хотите начать бунт, вы должны снова обратиться в adminhelp, изложив свою причину. Администратор примет вашу просьбу к рассмотрению.</b>"
+#define TICKET_AUTORESPONSE_D_CLASS_CELLS "<b>Вы можете выйти только тогда, когда дежурные охранники захотят вас отпустить. Лучше всего подождать и к примеру посмотреть видео на YouTube до тех пор.</b>"
+#define TICKET_AUTORESPONSE_DIRECTIONS_OR_LOST "<b>Если вы заблудились, лучше всего ориентироваться по указателям, также попробуйте поспрашивать у людей вокруг или найти голокарты, если они были добавлены к текущей карте.</b>"
+#define TICKET_AUTORESPONSE_CHARACTER_SETUP "<b>Касаемо настройки персонажа лучше всего обратиться в mentorhelp, там вам подскажут или-же посмотреть гайд на <a href='https://fijss13.miraheze.org/wiki/Руководство_для_новичков'>вики.</b>"
+#define TICKET_AUTORESPONSE_WEBSITE_AND_DISCORD "<b>Привет, наше <a href='https://fijss13.miraheze.org/'>вики, наш <a href='https://discord.gg/cZz6mNt'>дискорд. Просто нажми на нужное слово дабы перейти по ссылке.</b>"
 
 #define TICKET_AUTORESPONSE_DEFAULT_NOTICE_MESSAGE "<b>NOTICE: [FONT_COLORED(COLOR_RED, usr.key)] is autoresponding with [FONT_COLORED(COLOR_ISLAMIC_GREEN, choice)].</b>"
 
@@ -146,7 +146,7 @@
 			if(admin_ranks.len)
 				new_rank = input("Please select a rank", "New rank", null, null) as null|anything in (admin_ranks|"*New Rank*")
 			else
-				new_rank = input("Please select a rank", "New rank", null, null) as null|anything in list("Game Master","Game Admin", "Trial Admin", "Admin Observer","*New Rank*")
+				new_rank = input("Please select a rank", "New rank", null, null) as null|anything in list("Council", "Supervisor", "Developer", "GameAdmin", "Admin", "TrialAdmin", "Moderator", "Mentor", "*New Rank*")
 
 			var/rights = 0
 			if(D)
@@ -1066,48 +1066,48 @@
 		ticket.take(client_repository.get_lite_client(usr.client))
 
 		var/list/choicelist = list("--CANCEL--",
-									"IC Issue",
-									"Being Handled",
-									"Fixed","Thanks!",
-									"L: GitHub Issue",
-									"A: Requesting to be an SCP",
-									"A: Becoming an SCP",
+									"IC Ишью",
+									"Уже решается",
+									"Уже решена","Удачи-Спасибо!",
+									"L: Тех.часть проблема",
+									"A: Просьба стать SCP",
+									"A: Как стать SCP",
 									"L: RUST Engine",
-									"A: D-Class Riot",
-									"A: D-Class Cells",
-									"A: Directions/Lost",
-									"A: Character setup",
-									"L: Website and Discord information")
+									"A: D-Класс бунт",
+									"A: D-Класс в клетке",
+									"A: Направления/потерянные",
+									"A: Настройка персонажа",
+									"L: Ссылка вики и дискорда")
 
 		var/choice = input("Which autoresponse option do you want to send to the player?\n\n L - A webpage link.\n A - An answer to a common question.", "Autoresponse", "--CANCEL--") in choicelist
 
 		var/msgplayer
 		switch(choice)
-			if("IC Issue")
+			if("IC Ишью")
 				msgplayer = TICKET_AUTORESPONSE_IC_ISSUE
-			if("Being Handled")
+			if("Уже решается")
 				msgplayer = TICKET_AUTORESPONSE_BEING_HANDLED
-			if("Fixed")
+			if("Уже решена")
 				msgplayer = TICKET_AUTORESPONSE_FIXED
-			if("Thanks!")
+			if("Удачи-Спасибо!")
 				msgplayer = TICKET_AUTORESPONSE_THANKS
-			if("A: Requesting to be an SCP")
+			if("A: Просьба стать SCP")
 				msgplayer = TICKET_AUTORESPONSE_REQUESTING_TO_BE_SCP
-			if("A: Becoming an SCP")
+			if("A: Как стать SCP")
 				msgplayer = TICKET_AUTORESPONSE_BECOMING_AN_SCP
-			if("L: GitHub Issue")
+			if("L: Тех.часть проблема")
 				msgplayer = TICKET_AUTORESPONSE_GITHUB_ISSUE
 			if("L: RUST Engine")
 				msgplayer = TICKET_AUTORESPONSE_RUST_ENGINE
-			if("A: D-Class Riot")
+			if("A: D-Класс бунт")
 				msgplayer = TICKET_AUTORESPONSE_D_CLASS_RIOT
-			if("A: D-Class Cells")
+			if("A: D-D-Класс в клетке")
 				msgplayer = TICKET_AUTORESPONSE_D_CLASS_CELLS
-			if("A: Directions/Lost")
+			if("A: Направления/потерянные")
 				msgplayer = TICKET_AUTORESPONSE_DIRECTIONS_OR_LOST
-			if("A: Character setup")
+			if("A: Настройка персонажа")
 				msgplayer = TICKET_AUTORESPONSE_CHARACTER_SETUP
-			if("L: Website and Discord information")
+			if("L: Ссылка вики и дискорда")
 				msgplayer = TICKET_AUTORESPONSE_WEBSITE_AND_DISCORD
 			else return
 
