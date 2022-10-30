@@ -9,16 +9,16 @@
 
 		if(data["surviving_total"] > 0)
 
-			var/s_was =      "был"
+			var/s_was =      "остался"
 			var/s_survivor = "выживший"
 
 			if(data["surviving_total"] != 1)
-				s_was = "были"
+				s_was = "остались"
 				s_survivor = "выживших"
 
-			desc += "Там [s_was] **[data["surviving_total"]] [s_survivor] ([data["escaped_total"]] сбежало)** и **[data["ghosts"]] призраков.**"
+			desc += "В комплексе [s_was] **[data["surviving_total"]] [s_survivor]** и **[data["ghosts"]] призрак(-ов).**"
 		else
-			desc += "Там не осталось **выживших** ([data["ghosts"]] призраков)."
+			desc += "В комплексе не осталось **выживших** ([data["ghosts"]] призрак(-ов))."
 
 	.["embeds"] = list(list(
 		"title" = "Раунд [game_id] окончен.",
